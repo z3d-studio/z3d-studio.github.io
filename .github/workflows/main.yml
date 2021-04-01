@@ -2,13 +2,16 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
+      - name: Install Deeps
+        run: yarn install
 
       - name: Check Lint
         run: yarn lint
@@ -22,8 +25,13 @@ jobs:
       - test
     steps:
       - uses: actions/checkout@v2
+
+      - name: Install Deeps
+        run: yarn install
+
       - name: Build
         run: yarn build
+
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.0
         with:
