@@ -5,7 +5,7 @@ on:
     branches: [master]
 
 jobs:
-  test:
+  magic:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -18,16 +18,6 @@ jobs:
 
       - name: Check TS
         run: yarn tsc --noEmit
-
-  build:
-    runs-on: ubuntu-latest
-    needs:
-      - test
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Install Deeps
-        run: yarn install
 
       - name: Build
         run: yarn build
