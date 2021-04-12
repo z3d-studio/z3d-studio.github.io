@@ -27,6 +27,7 @@ export const Frame: React.FC<Props> = ({ images, classes }) => (
   <div className={classes.root}>
     {images.map(({ link, label }) => (
       <div
+        key={label}
         className={classes.images}
         style={{ backgroundImage: `url('${link}')` }}
       />

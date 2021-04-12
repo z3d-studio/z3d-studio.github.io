@@ -1,4 +1,5 @@
 import React from 'react';
+import Head from 'next/head';
 
 import { withStyles } from '@material-ui/core/styles';
 import { GetStaticPaths } from 'next';
@@ -67,6 +68,9 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
 
 export const ProjectPage = ({ content, metadata, classes }) => (
   <>
+    <Head>
+      <title>Z3D Studio - {metadata.title}</title>
+    </Head>
     <Header />
     <div className={classes.content}>
       <Frame images={metadata.images} />
