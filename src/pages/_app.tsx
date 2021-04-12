@@ -2,6 +2,13 @@ import React, { useEffect } from 'react';
 import CssBaseline from '@material-ui/core/CssBaseline/CssBaseline';
 
 import { AppProps } from 'next/dist/next-server/lib/router/router';
+import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
+
+const theme = createMuiTheme({
+  palette: {
+    type: 'dark',
+  },
+});
 
 export const Z3DApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   useEffect(() => {
@@ -12,10 +19,10 @@ export const Z3DApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   }, []);
 
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <CssBaseline />
       <Component {...pageProps} />
-    </>
+    </ThemeProvider>
   );
 };
 
