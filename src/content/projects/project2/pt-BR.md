@@ -1,8 +1,8 @@
 ---
 slug: projeto-2
-title: Projeto 2
+title: CASA CMB
 tags:
-  - CASA CMB
+  - casa
   - externo
 images:
   - label: Imagem 1

@@ -1,0 +1,27 @@
+---
+slug: projeto-2
+title: CASA VIC
+tags:
+  - casa
+  - externo
+images:
+  - label: Imagem 1
+    link: https://lh3.googleusercontent.com/HfRv8-dN6XNHm06uxJI0K_4OuYznNTxqUnsJNeHNUAk__G4kBfuDZGeiGlLNlX5Yy-5IqgkBaVsZfH10_4PXKkx46eLnZXLiuepXk8Lxtqgta5-LoGmG1-V6ELn_otk0FQHuocN8pX9Phn1PhWzPVZ_wdtaUvJnN5rayRn8HLXGNjJc8nStBEsv3N0zt7AQWE5qd0SCXYOYEYVfr99TJL5czSaQWjmCAgNIdz-imtfOpTb4xaGMVcxmDAPv84c8NeSQHErYej1gAbYf3Ptl7r3KpAj-sVzslIurJyVSV5VQeA3HrXUJZLSccnEUIkrPX3HFgyLhYdoqQX94h0IkaWGW8hBULFTY-5yY26kquhi6mTf_bYdiJk6-E-35J5MB8BE4cdSJ0NEv6zKTkFXLH_Ayn5jWo89RVWQVomHBJaJtO9KGSRETGL87PW8-YYzgogCj7X_BGaeASqh96-hpEDFOZCe_DPD7kvz8-QYRpoGd2EFZHo__TSQhftsTY65mJjW6piKDAXtp8gBfTsaCFGCTeeSA38AQD8c_pg8xfxl4z4ZqvU-bTFhmr2tq-WT0VTs9gncNFXOrdB_yPPSvURiZndB2mNN9Dhn3Y4N2sAYrgbD3P8Rd5n4i7IdKNT2-5iJRVZMD7fvwRQ6B_5A4vu9Y7_eG81NFzu6Wf6IuMwr6_jP5zI2npr5M_8Ursi3LqLFZmTweTZvppEKas1VhJrA=w844-h938-no?authuser=3
+    tags:
+      - a
+      - b
+  - label: Imagem 2
+    link: https://lh3.googleusercontent.com/rSjTgCh_UymlOvCZO5DqDTH61KLJfpmUH8p0OOXm__d8Vpeb4lIBcg1zZREyBHt_gX9yN5LKANWSj1OqDOu0P8ALsH1dTd88AzV9MIOnty0TPkzuQsI6aKHmZwDAnzJMlpWbG3FxhUfzcB4t_an5NIn-nHB-AOCWKaHaJ-7ggQr5IxAxmODogBNp-wDGl1VrVHeGb7njCVXOpzhdZSW74x1dpxsGV_0-7Gqo_ZsVCvbqQ1TyJYSBWg3HJPLyi7q7taIhJFO1Q782P9fbuvod2ZojVaNzZKU3VJCA-WbGpmPIxBeu3UjjD5noR2XC2E5Mw-v4a5S1RxIO80vuSdHk_b3ZFKDH5LAo5tOdOglF433tssX_Wj1YCwkHvu08ti2JPYjmPI3PdBp71Pc4HTKRr2TGriAfudkiVDGOHt41rHABGhUiSRQ2nAuxZmamOUSAI6h9bYL4CurfFAhEX8RPyugDWdBJSSlrXU9Jm-fr-2CV7K84p364ncHI4NYCP7YSDoe1Vrep3-Hdady1t1KUTzRKSPUxWM7E1AStkK4eJCLz20UVDpTP5_HkwlqZS2_-5EGXYsm4jNE_lb2aukMUzf4tp5jUKpL7uf4pG10DmK3JgVmBUyhusSl76AnEWZ7akap5o4XmAhN_lG_4a_aaIgk0omMIamlDb7_vjBaOOZaKD-tVrvu23zgqow0HphTpfYZwCaxazhohvUwnqa6Mig=w844-h938-no?authuser=3
+    tags:
+      - c
+      - d
+        - label: Imagem 3
+    link: https://lh3.googleusercontent.com/LDA3kg1Zxbo8Tb-waFpoPjbq-hRsxFu_xkLlm6fyuPGCDSZGAWPR5r_cfrhoEF25534-Hd0VouyaNRahz-DFIqK7qtxdjducZ0sE0SAM2MtkS32PaKPxXzeNLiKw5JMHi70OaJS8D0bx7DHRSgCVhafK1e_4fbgV2a3o2s2CkUeNus0bJ2lsHBLRUyGeGVnr0WDpWIeEO0Y3Oa5_eAeQ8AbKQpOae_8dtoesha4zrSQwkRInHnpF90UU1B6-V0aVaFgG_jnRzeQlwbTfyfXJIqQSxNlQyPSHbGlGCZ-QnhuKZITCPvKXHb8XjO4q0RpkDN1rZNERLDXDGLzLA9lydBIKxWPDWs1FFt7dVGtfrJXA18ntkwtjhCU4-z4Ow6LKCxL3yoO62jTWTVktS8JNVlbhzMcJ4T6Xxy9DuV1D0m92l0j86Qi1WboYgf-9JzTrFJEh_IMUbpj-ogOlym2OXknFcDrdaYOFQTCmWlXcb64_rDNxU8rpLezU8oRS1MAS4cqjkfktidOKHc1DEC8w6j7bRjJm8Q1Hgv4uu22XL4LTWhp9e2TvMI6d-kjl3XuHtReINS8yHYHDPzxpjFGLjn8MbSThAMHOQzfWZsKje3MFZSwh8DUQsJYyssx6j5OjtiSvKN1WdBXvaDiL1jZDI89BPB17TyUD7YTxoMbe2SviVwgckoTq2WU8lpRvMwi4j5sHj8JGNO-NPNKaNzYf0Q=w844-h938-no?authuser=3
+    tags:
+      - e
+      - f
+---
+
+Test edit
+
+Residência localizada em Ribeirão Preto
