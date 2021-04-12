@@ -15,12 +15,12 @@ images:
     tags:
       - c
       - d
-        - label: Imagem 3
+  - label: Imagem 3
     link: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f1c140117369695.60749fb276399.png
     tags:
       - e
       - f
-        - label: Imagem 4
+  - label: Imagem 4
     link: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8ba11e117369695.60749fb2769be.png
     tags:
       - g

@@ -15,7 +15,7 @@ images:
     tags:
       - c
       - d
-        - label: Imagem 3
+  - label: Imagem 3
     link: https://mir-s3-cdn-cf.behance.net/project_modules/fs/710f65115964869.6058d71f6d437.png
     tags:
       - e
