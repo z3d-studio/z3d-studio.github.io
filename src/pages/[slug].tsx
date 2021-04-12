@@ -45,17 +45,16 @@ export const getStaticProps = async ({ params }) => {
   return { props: mdProps };
 };
 
-export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
+export const getStaticPaths: GetStaticPaths = async () => {
   const files = await getFiles();
 
-  const pathMap = locales
+  const pathMap = ['pt-BR']
     .map((locale) =>
       files
         .filter((file) => file.indexOf(locale) > -1)
         .map((file) =>
           loadFile(file).then(({ metadata }) => ({
             params: { slug: metadata.slug },
-            locale,
           }))
         )
     )
