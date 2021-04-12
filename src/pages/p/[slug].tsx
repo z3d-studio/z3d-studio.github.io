@@ -1,5 +1,12 @@
-import { GetStaticPaths } from 'next';
 import React from 'react';
+import Head from 'next/head';
+
+import { withStyles } from '@material-ui/core/styles';
+import { GetStaticPaths } from 'next';
+
+import Header from '~/components/Header';
+import Frame from '~/components/Frame';
+import PortifolioContent from '~/components/PortifolioContent';
 
 const generateBasePath = () => `${process.cwd()}/src/content/projects`;
 const getFiles = async () => {
@@ -59,19 +66,30 @@ export const getStaticPaths: GetStaticPaths = async ({ locales }) => {
   return { paths, fallback: false };
 };
 
-export const ProjectPage = ({ content, metadata }) => (
-  <div>
-    <h1>{metadata.title}</h1>
-    {metadata.tags.map((tag) => (
-      <span key={tag}>#{tag}</span>
-    ))}
-    <div dangerouslySetInnerHTML={{ __html: content }} />
-    <div>
-      {metadata.images.map(({ link, label }) => (
-        <img key={link} src={link} alt={label} />
-      ))}
+export const ProjectPage = ({ content, metadata, classes }) => (
+  <>
+    <Head>
+      <title>Z3D Studio - {metadata.title}</title>
+    </Head>
+    <Header />
+    <div className={classes.content}>
+      <Frame images={metadata.images} />
+      <PortifolioContent
+        tags={metadata.tags}
+        title={metadata.title}
+        content={content}
+      />
     </div>
-  </div>
+  </>
 );
 
-export default ProjectPage;
+export default withStyles((theme) => ({
+  content: {
+    position: 'fixed',
+    display: 'grid',
+    gridTemplateColumns: '65% auto',
+    width: '100%',
+    top: theme.mixins.toolbar.minHeight,
+    height: `calc(100vh - ${theme.mixins.toolbar.minHeight}px)`,
+  },
+}))(ProjectPage);
